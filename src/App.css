@@ -1,0 +1,28 @@
+.route1{
+  text-align: center;
+  animation:  fliptitle  5s;
+
+
+}
+@keyframes fliptitle{
+  
+  from{transform: rotatex(90deg)
+}to{
+transform: rotateX(0deg);
+}
+}
+
+.route1 h1 {
+  text-align: center;
+  animation: rotate 1.5s linear infinite; 
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
